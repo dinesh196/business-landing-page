@@ -1,0 +1,48 @@
+.main{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.head{
+    cursor: pointer;
+}
+.App-logo {
+    height: 25px;
+    margin: 22px 0px 1px 24px;
+}
+.b1 {
+    padding: 25px 23px 25px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    width: 70%;
+}
+hr{
+    border: 0px;
+    height: 1px;
+    width: 89%;
+    margin: 10px 13px;
+    background-color: #615a5a;
+}
+.b3{ display: flex;
+    cursor: pointer;
+	color: white;
+	background-color:none;
+	width: 80%;
+    margin: 5px 12px 5px 12px;
+    padding: 1px 13px 1px 13px;
+    border-radius: 4px;
+}
+.icons{
+	width: 10%;
+}
+.ff {
+	color: #d6d6d5;
+    font-size: 20px;
+    margin: 15px 15px 15px 2px;
+}
+.mid{
+	color: #d6d6d5;
+	font-size: 15px;
+	margin: 16px 0px 16px 0px;
+}

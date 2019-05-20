@@ -1,33 +1,64 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  width: 1522px;
+  height: 742px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.Side1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img1.jpeg);
+  width: 17%;
+  background-attachment: fixed;
+  height: 100%;
+}
+.Side2{
+	background-color: #eeeeee;
+  width: 83%;
+  height: 100%;
+}
+.head{
+	justify-content: flex-end;
+	margin: 10px;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+	height: 50px;
+}
+.h1 {
+    padding: 18px;
+    font-size: 16px;
+    width: 10%;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+}
+.h2 {
+    border: none;
+    font-size: 16px;
+    padding: 6px 1px 0px 7px;
+    border-bottom: 1px solid grey;
+    opacity: 0.5;
+    width: 15%;
+    background-color: #eeeeee;
+    text-decoration: none;
+}
+input:focus{
+  outline:none;
+}
+.ic {    margin-top: 9px;
+    padding: 9px 15px 10px 15px;
+    color: #555555;
+    font-size: 13px;
+    line-height: 2;
+}
+.lst{
+	margin-right: 30px;
+}
+.frst{
+	border-radius: 25px;
+	background-color: white;
+	color: #9f9f9f;
+}
+.blanck{
+	width:56%;
 }
