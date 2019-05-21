@@ -13,7 +13,7 @@ html{
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img1.jpeg);
   width: 258px;
   position: fixed;
-  height: 735px;
+  height: 100%;
 }
 .Side2{
 	background-color: #eeeeee;

@@ -18,7 +18,7 @@ class Footer extends Component{
 		 return (<div className='footer'> 
 			    {this.newButtoon()}
 			    <div className='last'>
-			    <p className='l'>2019</p><p className='light'>Creative Tim</p><p>, made with love for a better web</p>
+			    <p className='l'>&copy; 2019</p><p className='light'>Creative Tim</p><p>, made with love for a better web</p>
 			   </div>
 			   </div>
 		)
