@@ -3,6 +3,10 @@ import Header from "./components/header";
 import './App.css';
 import Col from "./components/col";
 import Footer from "./components/footer"
+import CONTAINER from "./components/container.js"
+
+
+
 class App extends Component {
   render() {
     return (
@@ -12,6 +16,7 @@ class App extends Component {
          </div>
          <div className="Side2">
          <Header/>
+          <CONTAINER/>
          <Footer/>
          </div>
       </div>
