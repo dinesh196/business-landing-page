@@ -5,6 +5,7 @@ import Col from "./components/col";
 import Footer from "./components/footer"
 import CONTAINER from "./components/container.js"
 import CONTAINER1 from "./components/container1";
+import Container2 from "./components/container2";
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
          <Header/>
          <CONTAINER/>
          <CONTAINER1/>
+         <Container2 />
          <Footer/>
          </div>
       </div>
