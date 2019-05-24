@@ -1,11 +1,40 @@
 .stats{
 	width: 40%;
-	height: 200px;
-	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.3em;
+	border-radius: 10px;
+	background-color: white;
 }
 
 .stats-head{
 	width: 90%;
-	height: 40px;
-	border: 1px solid black;
+	margin-top: -25px;
+	align-self: center;
+	border-radius: 3px;
+	background-color: orange;
+	padding: 0.8em 0.3em 0.8em 0.3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	color: #f9efdc;
 }
+
+.stats-head-1, .stats-head-2{
+	padding: 0.1em 0.3em 0.1em 0.3em;
+	margin: 0.2em;
+}
+
+.stats-head-2{
+	font-size: 0.9em;
+	margin-bottom: 0.3em;
+	color: #f8dba5;
+}
+
+.stats-head-1{
+	font-size: 1.1em;
+	margin-top: 0.3em;
+}
+
