@@ -6,7 +6,7 @@ class TESTS extends React.Component{
  render(){   
       return (
       <div className="outer-box1"  >
-          <div className="graph-box"><img className="graph-image"  style={{backgroundColor:`${this.props.bgcolor}`}}/></div>
+          <div className="graph-box"><img className="graph-image" src={require('../' +this.props.i + '.png')}  style={{backgroundColor:`${this.props.bgcolor}`}}/></div>
           <div className="data-heading">{this.props.dataheader}</div><br/>
           <div className="data-body">{this.props.databody}</div><br/>
         <div className="horizontalLine"></div>
