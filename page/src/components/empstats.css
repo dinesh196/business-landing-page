@@ -38,3 +38,24 @@
 	margin-top: 0.3em;
 }
 
+.stats-content{
+	width: 91%;
+	margin-top: 2.3em;
+}
+
+.stats-content table{
+	width: 100%;
+}
+
+td{
+	padding: 1.1em 0em 1.1em 0em;
+	color: #747372;
+	font-size: 0.9em;
+	margin: 0px;
+	border-bottom: 1px solid #abaaa9;
+}
+
+.row-head{
+	color: orange;
+}
+
