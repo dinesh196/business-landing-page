@@ -4,7 +4,7 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 0.3em;
-	border-radius: 10px;
+	border-radius: 5px;
 	background-color: white;
 }
 
@@ -46,5 +46,41 @@
 }
 
 .tasks-content{
-	width: 90%;
+	width: 94%;
+	margin: 1em 0 1em 0;
+}
+
+.task-content-item{
+	padding: 0.7em;
+	border-bottom: 1px solid #abaaa9;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+input{
+	width: 3%;
+
+}
+
+.task-text{
+	font-size: 0.85em;
+	line-height: 1.6em;
+	width: 69%;
+	color: #747372;
+}
+
+.task-opr{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 8%;
+}
+
+.task-op{
+	font-size: 1em;
+}
+
+.fa-times{
+	color: red;
 }

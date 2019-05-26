@@ -3,6 +3,10 @@ import './tasks.css';
 
 class Tasks extends Component{
 	render(){
+		let items = ['Sign contract for "What are conference organizers afraid of?"',
+					'Lines From Great Russian Literature? Or E-mails From My Boss?',
+					'Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit',
+					'Create 4 Invisible User Experiences you Never Knew About'];
 		return(
 			<div className="tasks">
 				<div className="tasks-head">
@@ -13,32 +17,34 @@ class Tasks extends Component{
 						<div className="tasks-sub-head"><i className="fa fa-cloud"></i> SERVER</div>
 					</div>
 				</div>
-				<Content />
+				<Content items={items}/>
 			</div>
 			);
 	}
 }
 
+function ReturnTask(props){
+	return(
+		<div className="task-content-item">
+			<input type="checkbox" />
+			<div className="task-text">{props.item}</div>
+			<div className="task-opr">
+				<i className="fa fa-pencil-alt task-op"></i>
+				<i className="fa fa-times task-op"></i>
+			</div>
+		</div>
+	);
+}
+
 class Content extends Component{
-	constructor(props){
-		super(props);
-		this.state = {
-			items: ['Sign contract for "What are conference organizers afraid of?"',
-					'Lines From Great Russian Literature? Or E-mails From My Boss?',
-					'Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit',
-					'Create 4 Invisible User Experiences you Never Knew About']
-		}
-		let contentItems = this.state.items.map(item => {
-			<div className="content-item"><input type="checkbox">this.props.item</input><i className="fa fa-pencil"></i><i className="fa fa-"></i></div>
-		});
-	}
 
 	render(){
+		let contentItems = this.props.items.map(abc => <ReturnTask item={abc} key={abc}/>);
 		return(
 			<div className="tasks-content">
-				{this.contentItems}
+				{contentItems}
 			</div>
-			);
+		);
 	}
 }
 
