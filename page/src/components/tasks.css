@@ -13,7 +13,7 @@
 	margin-top: -25px;
 	align-self: center;
 	border-radius: 3px;
-	background-color: purple;
+	background-color: #ad3dd1;
 	padding: 0.3em 0.3em 0.3em 0.3em;
 	display: flex;
 	justify-content: flex-start;
@@ -36,7 +36,11 @@
 	align-items: center;
 	padding: 0.9em 0.7em;
 	font-size: 0.9em;
-	border-radius: 10px;
+	border-radius: 4px;
+}
+
+.tab:hover{
+	cursor: pointer;
 }
 
 .tasks-sub-head i{
@@ -83,4 +87,8 @@ input{
 
 .fa-times{
 	color: red;
+}
+
+.active{
+	background-color: #ba70d2;
 }
