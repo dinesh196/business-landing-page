@@ -59,7 +59,7 @@ class Content extends Component{
 	render(){
 		let contentEmps = this.props.emps.map(abc => <ReturnEmp emp={abc} key={abc.id}/>);
 		return(
-			<table cellspacing="0px">
+			<table cellSpacing="0px">
 				<tbody>
 					<tr>
 						<td className="row-head"> ID</td>
